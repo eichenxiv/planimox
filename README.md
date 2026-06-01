@@ -37,7 +37,7 @@
 파이널판타지14 관련 직업, 스킬 이름 및 아이콘은 주식회사 스퀘어 에닉스(SQUARE Enix Co., LTD.)의 저작권이며 모든 권리가 보호됩니다.
 
 ### 문의
-[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github)](https://github.com)
+[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github)](https://github.com/eichenxiv/planimox)
 
 ---
 
