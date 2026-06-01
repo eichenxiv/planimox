@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[dev]
+  command = "npm run dev"   # vite
+  targetPort = 5173
+  port = 8888
+
+# /s/:id?format=csv CSV 출력으로 우선 매핑
+[[redirects]]
+  from = "/s/:id"
+  query = {format = "csv"}
+  to = "/.netlify/functions/share?id=:id&format=csv"
+  status = 200
+
+[[redirects]]
+  from = "/s/*"
+  to = "/index.html"
+  status = 200

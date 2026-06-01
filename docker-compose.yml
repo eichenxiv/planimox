@@ -1,0 +1,26 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    image: planimox:dev
+    container_name: planimox-dev
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      # - NODE_OPTIONS=--dns-result-order=ipv4first
+
+  prod:
+    profiles: ["prod"]
+    build:
+      context: .
+      target: prod
+    image: planimox:prod
+    container_name: planimox-prod
+    ports:
+      - "8080:80"

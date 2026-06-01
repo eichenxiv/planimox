@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "bossTimeline": {
+    "name": "M9S",
+    "skills": [
+      {
+        "id": "55bd0cbd-39ce-4fff-bdf4-7cfba42e879d",
+        "time": 10,
+        "name": "뇌쇄적인 목소리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "01d9d3d4-603b-4cb3-8b2e-b2fb365a6166",
+        "time": 21,
+        "name": "과격성",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "58a40b7f-81aa-418c-b7d3-9a4b94b1245e",
+        "time": 31,
+        "name": "요염한 짓밟기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "68f498d1-ccbb-4f51-a377-dc89b84d585f",
+        "time": 35,
+        "name": "공진파(박쥐) #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c6c1a14f-f41a-4d50-a45a-2ee761c57edd",
+        "time": 36,
+        "name": "공진파(탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c21c1248-d2cd-4e98-a432-77af499d4c65",
+        "time": 38,
+        "name": "공진파(박쥐) #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "210dcbba-c704-46c6-bb11-86f7556d728d",
+        "time": 39,
+        "name": "공진파(근딜)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bf1b44cc-e5b7-49f2-ad3f-1921bcedc6c5",
+        "time": 40,
+        "name": "공진파(원딜/힐러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2c51569f-8a4d-4a47-aafd-0cd04e1a1692",
+        "time": 42,
+        "name": "공진파(박쥐) #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "661ebb45-aa46-44d4-a5c0-b86b9591e751",
+        "time": 49,
+        "name": "잔혹한 비",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b0489db5-aaba-4655-8c66-680283be3d04",
+        "time": 61,
+        "name": "가학적인 웃음",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5fbce5e4-b7bc-41ab-b3dd-125eb47773cf",
+        "time": 68,
+        "name": "전진",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d9b9b253-38f5-4dca-a8e9-3245fde4c747",
+        "time": 76,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d7dc4173-1675-4f69-9752-f819a369e501",
+        "time": 79,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e1db889c-79ff-4d2a-b480-68e7e4600f15",
+        "time": 86,
+        "name": "전진",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1effb3fe-a7e3-4773-aa5d-61a950b5e8c9",
+        "time": 93,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "89ff5340-448f-449f-a745-e768ea8738b7",
+        "time": 96,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1b4523c5-5082-4715-85dc-aa610dc4221d",
+        "time": 103,
+        "name": "전진",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d2e57266-f0f1-4493-a646-1fabbb72bed7",
+        "time": 111,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "17467e7c-4768-49e1-af4a-f147294876a6",
+        "time": 113,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a2d9c38d-a5ad-4d6d-a4b3-2bcda5bb5ec3",
+        "time": 121,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e02a6182-996f-472e-a942-ae1ec40620b8",
+        "time": 124,
+        "name": "반달차기 + 톱날 돌출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fc35ab4d-61aa-4498-83ef-cf2c7b2b5fd1",
+        "time": 139,
+        "name": "가학적인 웃음",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9ca5c283-6b47-4891-ac40-8470a4bdac6b",
+        "time": 153,
+        "name": "생명력 갈취",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e6830402-386f-4f84-ac4d-9c8fbc462f19",
+        "time": 172,
+        "name": "파멸적 최후",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "de17c317-4aeb-4fe5-9d94-3bd60c83ac60",
+        "time": 177,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4cc034ab-7638-4704-a660-07c1904dc48e",
+        "time": 191,
+        "name": "에테르 해방 (부채꼴) #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b0f75b2a-cb71-413a-b932-80897abbbfb6",
+        "time": 193,
+        "name": "에테르 해방 (부채꼴) #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "76e3e5fd-6925-444e-a9b9-de82475a1d81",
+        "time": 193,
+        "name": "에테르 해방 (마커) #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9a1a3b36-7b56-420d-ba18-9320ca9de10a",
+        "time": 195,
+        "name": "에테르 해방 (부채꼴) #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "134062eb-1d40-4dc7-adf2-5072a270d0fe",
+        "time": 195,
+        "name": "에테르 해방 (마커) #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d4fdcfbb-93f7-4b8d-afdf-1b8122e02d82",
+        "time": 197,
+        "name": "에테르 해방 (부채꼴) #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8bc1556f-93c7-45ab-bb8b-c33e54c1144b",
+        "time": 197,
+        "name": "에테르 해방 (마커) #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "aff4a545-0029-455c-9626-706f79b53ff6",
+        "time": 199,
+        "name": "에테르 해방 (마커) #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0eb32690-06c9-4bec-961d-654c767f42c9",
+        "time": 208,
+        "name": "십자 or 엑스자 실행 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "be4926cc-4bcb-4a50-88f0-c44c317fc8e4",
+        "time": 210,
+        "name": "십자 or 엑스자 실행 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c34e9f9d-81f1-4096-b337-c599f25b17dc",
+        "time": 212,
+        "name": "십자 or 엑스자 실행 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e6ce4697-e560-4655-a48e-c60249cca291",
+        "time": 214,
+        "name": "십자 or 엑스자 실행 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "64c63c85-879e-4ce1-9a7f-4ec04690101f",
+        "time": 221,
+        "name": "과격성",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bbb8fb9e-093b-461f-9c48-ae59ed41c1ee",
+        "time": 226,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0b1d904d-8b42-4524-baff-58fe26343035",
+        "time": 231,
+        "name": "요염한 짓밟기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c70c7fac-e79e-4262-864d-1033d89f2a0f",
+        "time": 235,
+        "name": "공진파(박쥐) #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a9c13891-f072-4841-a963-21cfe56619b5",
+        "time": 236,
+        "name": "공진파(탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "951f2568-56f5-4a51-a798-1204dc26bbdf",
+        "time": 237,
+        "name": "공진파(박쥐) #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ad19716b-ff25-47bc-9a4a-69910252d1de",
+        "time": 238,
+        "name": "공진파(근딜)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "91be9537-94f9-4270-b729-0412d81b65d4",
+        "time": 240,
+        "name": "공진파(원딜/힐러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a6025683-abe4-4227-9fc5-af7b4aa5d101",
+        "time": 242,
+        "name": "공진파(박쥐) #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6cf1f8f3-e5cb-4762-942d-ea6eefd911e8",
+        "time": 247,
+        "name": "반달차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c533d5f2-1db6-497b-aa1d-c5ca7556e2f2",
+        "time": 250,
+        "name": "반달차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8cb6383c-2404-4a77-8d2c-64d84adcbbdd",
+        "time": 261,
+        "name": "잔혹한 비",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9675749b-ef9e-4850-8b54-9345c84c6719",
+        "time": 271,
+        "name": "채워지지 않는 갈증",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "42286f2f-cccb-43ae-a5b5-caecb58483d8",
+        "time": 284,
+        "name": "가학적인 웃음",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5242f07d-5e14-48ac-8042-d18f3f0d3ef7",
+        "time": 297,
+        "name": "낙하",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "dc131bb9-7e29-40f2-9bc6-87bca79ab70a",
+        "time": 306,
+        "name": "뇌쇄적인 목소리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bbd75981-d951-4e52-8504-eeee8db602da",
+        "time": 315,
+        "name": "낙하",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d73b344d-eb55-4855-9b7a-6ba4b5983411",
+        "time": 324,
+        "name": "뇌쇄적인 목소리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4608d84d-84aa-4fe6-aa89-6e6b6ce13fff",
+        "time": 333,
+        "name": "낙하",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "81ae694a-b5a0-4af8-a181-5fe309bd8f31",
+        "time": 357,
+        "name": "가학적인 웃음",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d45c8ab6-075e-461c-a7d2-763ec087e74a",
+        "time": 371,
+        "name": "생명력 갈취",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e39aef7d-3d1c-4120-b8f5-7bedad1ac886",
+        "time": 390,
+        "name": "파멸적 최후",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "491abef6-4c4f-4a2a-a4dc-4267d7b54b38",
+        "time": 395,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "09025cf4-4e97-4f26-bc19-c08356269ad1",
+        "time": 400,
+        "name": "헬 인 어 셀",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f3d3e3cc-b9a8-4d42-b065-e72457c0c1f0",
+        "time": 401,
+        "name": "피의 결박",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0a22bf00-c7e6-4e59-8f7d-7f63eaf1001c",
+        "time": 404,
+        "name": "핏빛 채찍질",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "40c4588c-f333-4136-a5d7-77a6de20f164",
+        "time": 409,
+        "name": "확산되는/집약된 음파",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0e5989aa-fcb4-4115-8c43-403691f4bf53",
+        "time": 416,
+        "name": "집약된/확산되는 음파",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9dfb6823-7553-4ec6-8822-461406a65697",
+        "time": 423,
+        "name": "헬 인 어 셀",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "58d561b7-bf49-49c0-ae83-791efcc5745e",
+        "time": 424,
+        "name": "피의 결박",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7cb5b304-af35-4f07-8cc6-1f111b392efc",
+        "time": 426,
+        "name": "핏빛 채찍질",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a89e34e9-3c6d-4c85-9f8c-00a26162a872",
+        "time": 432,
+        "name": "확산되는/집약된 음파",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a8aad9a1-b158-424e-b170-6e45d2c39c62",
+        "time": 439,
+        "name": "집약된/확산되는 음파",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8d2eac60-cc47-4f7d-9746-9f24b80c7c79",
+        "time": 444,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "71ecb394-55bf-4b91-a947-6827bcf90791",
+        "time": 448,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "62e0a32f-a836-4267-ab6c-195a46102e94",
+        "time": 453,
+        "name": "박쥐 데스매치",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "760b309e-4066-4598-99b9-05f3fb3fa6e0",
+        "time": 454,
+        "name": "피의 결박",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e8ee7da2-4131-4793-b2ae-572f25977cd7",
+        "time": 471,
+        "name": "붉은 생채기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c3f416e7-be49-4222-bed7-770ad53d8ccc",
+        "time": 474,
+        "name": "파괴 선율/박자",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c8519e77-53bd-4af0-838f-612955340614",
+        "time": 489,
+        "name": "붉은 생채기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3eb1c25b-1655-4452-9cd5-bdec77d899c8",
+        "time": 492,
+        "name": "파괴 선율/박자",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2cfed871-db6d-44dc-b269-35e1bdfbc68d",
+        "time": 499,
+        "name": "잔혹한 비",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7b3a00f0-67b6-4856-b329-4464a911d97b",
+        "time": 512,
+        "name": "요염한 짓밟기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c232083d-bef7-4fb1-b605-113e8092ad21",
+        "time": 516,
+        "name": "공진파(박쥐) #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fe3bdff7-8be4-4947-be22-7d813ee655c1",
+        "time": 518,
+        "name": "공진파(탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "34f0fd5a-5b6c-4e48-a53e-852e3637381b",
+        "time": 519,
+        "name": "공진파(박쥐) #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "619feded-5462-4dba-b74d-d63621424fc6",
+        "time": 520,
+        "name": "공진파(근딜)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "19eba06d-c0aa-417b-9189-a726555d73a4",
+        "time": 521,
+        "name": "공진파(원딜/힐러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6d5ecd38-d20d-4ee0-9aea-16ae833e4e1e",
+        "time": 523,
+        "name": "공진파(박쥐) #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7dd6e712-07e8-48cf-8fc4-05049fbb0fc1",
+        "time": 528,
+        "name": "반달차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "86e1ab6d-4526-4314-9609-e6c3fba773e5",
+        "time": 531,
+        "name": "반달차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "96160215-a20e-4452-b052-4b44a5f88313",
+        "time": 539,
+        "name": "과격성",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9c7662e0-00fe-47ae-9655-96b351680196",
+        "time": 544,
+        "name": "분쇄 파동",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4982b1ec-e52c-4aea-89e0-b707dfc0495c",
+        "time": 560,
+        "name": "붉은 생채기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "214e47d1-6eed-449c-861e-f23b3d6057d7",
+        "time": 571,
+        "name": "채워지지 않는 갈증",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d9598702-b9e4-488f-8673-3f877724d6e7",
+        "time": 586,
+        "name": "생명력 갈취",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0ebd7871-34b1-43f9-ad02-a44c1f131503",
+        "time": 605,
+        "name": "파멸적 최후 (전멸기)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      }
+    ]
+  },
+  "party": [
+    {
+      "index": 0,
+      "name": "T1",
+      "jobId": null
+    },
+    {
+      "index": 1,
+      "name": "T2",
+      "jobId": null
+    },
+    {
+      "index": 2,
+      "name": "H1",
+      "jobId": null
+    },
+    {
+      "index": 3,
+      "name": "H2",
+      "jobId": null
+    },
+    {
+      "index": 4,
+      "name": "D1",
+      "jobId": null
+    },
+    {
+      "index": 5,
+      "name": "D2",
+      "jobId": null
+    },
+    {
+      "index": 6,
+      "name": "D3",
+      "jobId": null
+    },
+    {
+      "index": 7,
+      "name": "D4",
+      "jobId": null
+    }
+  ],
+  "assignments": [],
+  "phaseDividers": []
+}

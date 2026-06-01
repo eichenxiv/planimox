@@ -1,0 +1,772 @@
+{
+  "version": 1,
+  "bossTimeline": {
+    "name": "M12S P2",
+    "skills": [
+      {
+        "id": "bb2278cd-c579-4cc7-bc23-a4c01adc8325",
+        "time": 16,
+        "name": "아르카디아의 화염",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6e04914c-0614-4912-af5c-9ce13e47ebf0",
+        "time": 28,
+        "name": "자가 복제",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0d383209-66db-4317-9a80-ad0228464cfb",
+        "time": 39,
+        "name": "자동 공격 × 4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b234ea9e-ebda-471b-ada0-953508257015",
+        "time": 40,
+        "name": "정상급 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3a4ecdc6-a993-4779-bccb-4393f4fe3fec",
+        "time": 40,
+        "name": "만능 마법",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "dd0200b5-006a-4da9-8532-59166fbd6f27",
+        "time": 40,
+        "name": "날개 돋친 재앙",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "cff3ecad-c46a-4644-ab91-ab446d6a1645",
+        "time": 45,
+        "name": "뱀발 후려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0f0b9bbd-f98f-487d-b521-0163a44557f0",
+        "time": 54,
+        "name": "분신 분열",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b4436ab8-02e9-4246-ac0a-755b19b0d23c",
+        "time": 59,
+        "name": "자동 공격 × 5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "58a2096d-106f-4d43-90fd-cffa7af82c99",
+        "time": 62,
+        "name": "정상급 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5f247ef2-6dc9-4879-a81e-df49ca4f02a9",
+        "time": 62,
+        "name": "만능 마법",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b56f6cba-6d2d-40b2-b3ea-7f03bc1bd763",
+        "time": 62,
+        "name": "날개 돋친 재앙",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3a8695ae-b171-4f09-a698-48aa13c2f4e8",
+        "time": 70,
+        "name": "이중 뒤돌려차기 (쉐어)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "85472bd7-9758-4025-9d95-b1af80b35b8f",
+        "time": 75,
+        "name": "이중 뒤돌려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4242935a-71ed-47d8-975d-d5392c6803df",
+        "time": 77,
+        "name": "마나 연격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4c7076c9-d608-49cb-8acc-4505b1fb335f",
+        "time": 92,
+        "name": "모방 세포",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "89ce11ab-3df7-4fba-bf30-0d6d5677c735",
+        "time": 102,
+        "name": "자동 공격 × 4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3b0903f9-ad96-4f0e-a263-3446fedcb78a",
+        "time": 106,
+        "name": "자가 복제",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ddfb40a9-d732-45c9-bfe0-8c7ddcc3ffda",
+        "time": 128,
+        "name": "자동 공격 × 6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "527481f3-9002-4f7b-82ba-967d713e513f",
+        "time": 128,
+        "name": "불꽃 하강",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f1f55efa-e1b6-46f1-8c26-b37cba272d39",
+        "time": 129,
+        "name": "화염 파도",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "03473062-1dee-4d95-875c-35f162e14e05",
+        "time": 130,
+        "name": "마나 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bac2b1f5-806a-4e11-9fa2-6afd423ee29a",
+        "time": 135,
+        "name": "묵직한 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9944204d-bc35-4aa4-8018-1f440ef4f43d",
+        "time": 137,
+        "name": "방향성 충격파",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "74b8b107-1242-4612-9b09-e27d4f348bf2",
+        "time": 141,
+        "name": "뱀발 후려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "99574c81-11ed-4e65-a184-1efa28928426",
+        "time": 152,
+        "name": "재현",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5d65bae4-fecf-485a-b833-714b5bfe211e",
+        "time": 160,
+        "name": "지하의 분노: 원거리/근거리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2f4fedd0-da2c-461a-be44-d227218c8d81",
+        "time": 160,
+        "name": "재현 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "23141a3f-900d-43bb-965a-4faeb7b9861a",
+        "time": 164,
+        "name": "재현 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "eea4344c-225a-486f-b7ce-e05114c20f96",
+        "time": 168,
+        "name": "재현 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "840e446b-30af-4ae5-aa00-249d0f0a8d6d",
+        "time": 172,
+        "name": "재현 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "219fe33a-1613-446c-8a4e-5d57c50c2f37",
+        "time": 184,
+        "name": "변이 세포",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "cbd94f0d-e352-4f22-a049-a54cc540fbe2",
+        "time": 190,
+        "name": "마나 스피어",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5cc03aab-8b63-4a25-8940-3a4da19a5501",
+        "time": 201,
+        "name": "마력 방산 (탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "036b747a-156f-4a7e-abfc-f46519f142a1",
+        "time": 201,
+        "name": "마력 방산 (힐러/딜러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "14ae3577-fde8-4da0-bd61-88156d649154",
+        "time": 203,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "37fc48b3-6735-428b-9927-64efcad82edb",
+        "time": 218,
+        "name": "마나 스피어 어웨이크 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "70dbcda7-cdd8-42fd-8d7f-45b2c5d8044a",
+        "time": 224,
+        "name": "마나 스피어 어웨이크 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e15746ac-e547-4954-a76f-8823f7b4e89c",
+        "time": 230,
+        "name": "지하 세계: 원거리/근거리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "078ae542-f732-4128-88a9-ea1f4ce0e96d",
+        "time": 233,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4f274fd3-80fb-4f00-8c58-414e4532c9fe",
+        "time": 237,
+        "name": "아르카디아의 화염",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a2f4c6ac-e30a-4ae0-840c-4dd0316909a0",
+        "time": 246,
+        "name": "이중 뒤돌려차기 (쉐어)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e47ad98e-c7b6-4025-9956-352601e4c4e6",
+        "time": 251,
+        "name": "이중 뒤돌려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3d5240f9-474e-4e08-8f84-0732887a6116",
+        "time": 253,
+        "name": "마나 연격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8a34344b-9e01-4a96-ae27-609eee238e62",
+        "time": 270,
+        "name": "아르카디아의 꿈",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "60744908-8bcb-4434-9f53-063dec13a6a9",
+        "time": 276,
+        "name": "모방 세포",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "43379fe3-abe9-4e98-b7e2-3b4c8af466d8",
+        "time": 286,
+        "name": "자동 공격 × 4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "af5ee9c4-ebf8-4a96-b72f-df200d532fee",
+        "time": 291,
+        "name": "심상투영 (이면으로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6ce953db-965e-4bd2-9598-a663357f8630",
+        "time": 297,
+        "name": "레플리케이션 (부채꼴)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2ead28d2-72f2-45d9-8dca-45bf35b148a0",
+        "time": 309,
+        "name": "심상투영 (현실로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8e92023b-d02e-42fc-9573-2b47c9b461e1",
+        "time": 316,
+        "name": "레플리케이션 (쉐어/산개)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5d5025f0-68f5-4550-8f8b-424dda4914ed",
+        "time": 330,
+        "name": "자동 공격 × 5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c1ad9ec6-9e45-45ef-a9d1-42fe1ca6d337",
+        "time": 335,
+        "name": "심상투영 (이면으로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e15db278-533c-476e-9898-215e806108cb",
+        "time": 340,
+        "name": "강력 분출 + 뱀발 후려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d76a966b-0de9-476e-8f0f-599505c502bc",
+        "time": 344,
+        "name": "린드블룸 메테오",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b8854294-9df6-4775-96da-1491a9344982",
+        "time": 350,
+        "name": "추락",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "152ddc9b-669b-4ac0-aa02-59f100921480",
+        "time": 357,
+        "name": "아르카디아의 비기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "18f2b8ff-037a-44ac-8dda-4644636a4d6e",
+        "time": 364,
+        "name": "심상투영 (현실로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2bfa3b64-964d-4517-b7df-29f708a70ed8",
+        "time": 371,
+        "name": "마나 폭발 or 묵직한 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4f69582c-c825-419d-96d9-ea83a9c6871e",
+        "time": 377,
+        "name": "묵직한 내려찍기 or 마나 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "eec532d6-6fa3-4a52-87d6-5f9a272349c7",
+        "time": 381,
+        "name": "마나 폭발 or 묵직한 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c8f01c51-319b-4d7c-9344-df69c9324612",
+        "time": 387,
+        "name": "묵직한 내려찍기 or 마나 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7b8895da-85be-4381-8b13-db16b91dde05",
+        "time": 395,
+        "name": "심상투영 (이면으로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2d6c6f27-74fa-4e0d-b627-8bb752df48ef",
+        "time": 399,
+        "name": "탑 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "22b282cb-b287-4ffe-a3e0-a667a14f66ca",
+        "time": 400,
+        "name": "린드브룸 다라",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c3850215-a87f-49ab-b3dd-4f18b9a5d8ff",
+        "time": 405,
+        "name": "린드브룸 스톤가",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a9a1ae1a-cdce-46c3-8626-8377f17e8081",
+        "time": 410,
+        "name": "린드블룸 선더라",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a4e4ac4b-9b68-4d84-995e-57e8f8f0b63a",
+        "time": 410,
+        "name": "린드블룸 글레어",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ae0ea6e6-ccab-431c-94ae-c5976a254227",
+        "time": 418,
+        "name": "공간 열단",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2a072532-91fb-4978-9530-ecfd8ed14a8f",
+        "time": 426,
+        "name": "자동 공격 × 5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3c2aaabf-89e5-4562-8e20-24e2bc68bc2a",
+        "time": 431,
+        "name": "심상투영 (현실로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "36827a4a-335e-4298-b345-f945b7f142f1",
+        "time": 437,
+        "name": "재현",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "369d45a3-57bc-4e30-ac6d-42060d97e4d0",
+        "time": 441,
+        "name": "마나 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "480a16a3-b668-489e-b1af-ef4c419557b9",
+        "time": 441,
+        "name": "묵직한 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "38fe79fe-1673-4979-aeb8-021f35265a2d",
+        "time": 446,
+        "name": "심상투영 (이면으로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "691aacd3-87b0-49ad-a6ae-9c88f3d6caeb",
+        "time": 451,
+        "name": "강력 분출 + 뱀발 후려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "13c7c8a4-afb2-42ee-b15d-a183c940319d",
+        "time": 454,
+        "name": "심상투영 (현실로)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e5078e3a-f904-4a01-ad39-c202c260573a",
+        "time": 462,
+        "name": "마나 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "855ae84a-68eb-4e38-ac73-9565144803da",
+        "time": 462,
+        "name": "묵직한 내려찍기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ae55967d-7f4f-4103-9bf5-1f8e51715ca1",
+        "time": 466,
+        "name": "강력 분출",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "890ea8d1-aaf0-4ea4-8319-894c2d3dae37",
+        "time": 472,
+        "name": "아르카디아의 꿈",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0fe17ba4-db5c-4251-b7b7-0689ea5ecae7",
+        "time": 481,
+        "name": "이중 뒤돌려차기 (쉐어)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "776335ef-2776-4cac-bb4c-5ae329596f31",
+        "time": 485,
+        "name": "이중 뒤돌려차기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2f50bb61-d440-4049-8623-182bfbe0a4f2",
+        "time": 488,
+        "name": "마나 연격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7f3e611f-3cce-42ba-9ad2-dade78b440d9",
+        "time": 501,
+        "name": "레플리케이션",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3a395607-f0e8-4e5f-b7e3-d234377310bb",
+        "time": 515,
+        "name": "아르카디아의 지옥",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f0939bba-17d2-4122-af0a-053a282d1419",
+        "time": 531,
+        "name": "아르카디아의 지옥",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ca6468e9-08aa-4de6-ac01-daa2174880cb",
+        "time": 554,
+        "name": "아르카디아의 지옥",
+        "attribute": null,
+        "damage": "9,999,999",
+        "description": "전멸기"
+      }
+    ]
+  },
+  "party": [
+    {
+      "index": 0,
+      "name": "T1",
+      "jobId": null
+    },
+    {
+      "index": 1,
+      "name": "T2",
+      "jobId": null
+    },
+    {
+      "index": 2,
+      "name": "H1",
+      "jobId": null
+    },
+    {
+      "index": 3,
+      "name": "H2",
+      "jobId": null
+    },
+    {
+      "index": 4,
+      "name": "D1",
+      "jobId": null
+    },
+    {
+      "index": 5,
+      "name": "D2",
+      "jobId": null
+    },
+    {
+      "index": 6,
+      "name": "D3",
+      "jobId": null
+    },
+    {
+      "index": 7,
+      "name": "D4",
+      "jobId": null
+    }
+  ],
+  "assignments": [],
+  "phaseDividers": [
+    {
+      "id": "320ab0b0-fcd7-4851-83fb-24b66f78e263",
+      "label": "모방 세포",
+      "beforeSkillId": "4c7076c9-d608-49cb-8acc-4505b1fb335f"
+    },
+    {
+      "id": "6bf00abe-df6a-449e-9058-01d630e4fabd",
+      "label": "아르카디아 드림",
+      "beforeSkillId": "8a34344b-9e01-4a96-ae27-609eee238e62"
+    },
+    {
+      "id": "f86da932-1f53-4e98-ac70-c5cdd3d019a5",
+      "label": "자가 복제",
+      "beforeSkillId": "bb2278cd-c579-4cc7-bc23-a4c01adc8325"
+    }
+  ]
+}

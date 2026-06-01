@@ -1,0 +1,892 @@
+{
+  "version": 1,
+  "bossTimeline": {
+    "name": "M11S",
+    "skills": [
+      {
+        "id": "240cec23-f4a1-425b-9e05-c8dc31a1f3d1",
+        "time": 11,
+        "name": "아르카디아의 제왕",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "65861336-7640-49b0-a4f6-25b6f8de7df6",
+        "time": 18,
+        "name": "무기 생성: 맹격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f6658927-74cf-4de8-bfa9-b56749093751",
+        "time": 25,
+        "name": "무기 맹격 (탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "53f06663-6aeb-4f2f-a6ff-0a4feb38062c",
+        "time": 25,
+        "name": "무기 맹격 (힐러/딜러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e414e63b-3dd9-44cc-a770-2c3a686b346b",
+        "time": 39,
+        "name": "무기 트로피",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e1dbdc09-8b6c-4201-a9d4-7ea8c17938e8",
+        "time": 48,
+        "name": "무기 공습 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "69f38fd1-b085-4b81-90f3-902faef2c678",
+        "time": 50,
+        "name": "무기 공습 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "baca1c3c-8156-448e-9347-0f4403d0199c",
+        "time": 55,
+        "name": "무기 공습 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b65f1d14-66ec-4b1a-803d-947bc30f5785",
+        "time": 61,
+        "name": "무기 공습 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0a1b10c9-953f-4b04-a2f1-0dfc7c827a1d",
+        "time": 73,
+        "name": "무기 트로피",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f423b9eb-afaf-4190-8e2a-27e6ded18e83",
+        "time": 80,
+        "name": "혜성우",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d7f6def5-e38b-4976-9151-00e8f6ffb6d1",
+        "time": 81,
+        "name": "작은 혜성 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5c82ab69-57fd-4c5e-ad54-43e1a442c824",
+        "time": 83,
+        "name": "작은 혜성 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4a876d05-951c-48b6-8303-7922c01a064f",
+        "time": 85,
+        "name": "작은 혜성 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4181eea6-f820-460e-9cc6-858c86b0329e",
+        "time": 90,
+        "name": "거대 혜성 / 혜성",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "47f6c794-c2d9-4cfd-ab08-9a802f340851",
+        "time": 93,
+        "name": "무기 공습 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "86c0715b-0835-402d-accf-7056028c6529",
+        "time": 95,
+        "name": "무기 공습 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "aed11fb9-d60a-4a64-82fa-2eb2ba0948e5",
+        "time": 100,
+        "name": "무기 공습 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8f07c694-ceb8-4e0b-bb38-98bc8e943435",
+        "time": 106,
+        "name": "무기 공습 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8da17639-4708-409e-bf42-86881b61f808",
+        "time": 108,
+        "name": "작은 혜성 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a2e79f67-517d-4cea-b95e-bb1b6e8058ab",
+        "time": 110,
+        "name": "작은 혜성 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "544b82ae-22da-43ee-a444-95f0e4df6234",
+        "time": 112,
+        "name": "작은 혜성 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "50f4f613-ed7f-47f5-ab20-a1c0efea9f31",
+        "time": 117,
+        "name": "혜성 / 거대 혜성",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7f7f1d67-0326-4f33-b802-99aa3ebe31cd",
+        "time": 123,
+        "name": "아르카디아의 제왕",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f4fc7b0a-905a-4ae3-bbf6-7df8d41fe8cb",
+        "time": 141,
+        "name": "지배의 검무 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "09958b79-2f64-4354-b23c-019c38fc6ffe",
+        "time": 146,
+        "name": "지배의 검무 (공격)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7d53f503-1651-414d-ab1a-d94469bba50a",
+        "time": 151,
+        "name": "폭군의 허리케인",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "edc0261e-8660-47ea-b1ef-729c8139176a",
+        "time": 151,
+        "name": "폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d45ae68f-4e35-4770-9004-7420bf843746",
+        "time": 157,
+        "name": "무기 생성: 맹격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b05bb690-cac8-48f2-88a9-ab486968428a",
+        "time": 164,
+        "name": "무기 맹격 (탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3dcc937a-ce12-4fe2-8ba4-3d57be57fe42",
+        "time": 164,
+        "name": "무기 맹격 (힐러/딜러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8b255dfd-147c-4e66-b99c-475d5cb70a7b",
+        "time": 180,
+        "name": "대소용돌이",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8dceda86-e3ad-4eda-b303-4d34be8fdd41",
+        "time": 186,
+        "name": "궁극의 무기 트로피",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fa559b00-f378-4014-8d80-25b006009af5",
+        "time": 193,
+        "name": "무기 맹공습",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1f2ea740-364e-4142-8077-7bcd2ba15cbf",
+        "time": 195,
+        "name": "무기 공습 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "44982e9d-4c76-42c2-946d-231ad999e308",
+        "time": 201,
+        "name": "무기 공습 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "eac44928-8433-4951-9638-9d14127091ff",
+        "time": 206,
+        "name": "무기 공습 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2991b50f-e67c-441c-84cc-555e098889a2",
+        "time": 211,
+        "name": "무기 공습 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "28056e7a-73b6-4e44-889f-c778920077c6",
+        "time": 216,
+        "name": "무기 공습 #5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4261e287-6ec6-4c6b-a3a8-7955dd8801f8",
+        "time": 221,
+        "name": "무기 공습 #6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9c58c58e-695f-40f0-9cd2-5acfe96ddedc",
+        "time": 228,
+        "name": "강풍",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b27d1bbb-6df8-44e4-b2d4-6a64fc985ec0",
+        "time": 242,
+        "name": "유일무이",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "af6f34ea-1b9a-4db6-9c4d-63b0afa20a0a",
+        "time": 254,
+        "name": "화염 기류 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f32f0da2-fea0-41f2-862b-d459506a6766",
+        "time": 257,
+        "name": "화염 기류 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8cfbdecb-4a8a-4167-a80e-b5268290717b",
+        "time": 267,
+        "name": "궤도선 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e53336ba-7d7b-47fe-b9aa-053c9c678562",
+        "time": 277,
+        "name": "화염과 꼬리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "dec8da9d-f7d9-4984-8848-76fc3896acf1",
+        "time": 277,
+        "name": "궤도선 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0c547479-4751-4061-af4f-c158eeb94ac6",
+        "time": 278,
+        "name": "궤도선 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d1d17aeb-8bac-4b40-9542-766c103ef97c",
+        "time": 280,
+        "name": "궤도선 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "764bc734-98a6-417f-b955-28baa7f00ebb",
+        "time": 281,
+        "name": "궤도선 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1bcca5a9-103e-4927-b375-b88000e93594",
+        "time": 293,
+        "name": "메테오 레인",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f3efb870-1ecc-4336-a9cd-bac3f889ad32",
+        "time": 301,
+        "name": "거대한 화염 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "879a6d6e-2d76-4eb4-baae-f2b4160fc09a",
+        "time": 303,
+        "name": "착탄 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7285e01b-e7a1-4eba-a5d0-729073f1a807",
+        "time": 310,
+        "name": "필멸선 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "763ff0c0-58d4-4892-885f-40ecde72beb2",
+        "time": 311,
+        "name": "거대한 화염 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f71e955d-e5d8-4ece-95b9-274a224e4271",
+        "time": 313,
+        "name": "착탄 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bd340a21-4180-42a2-b081-99a57c330a14",
+        "time": 320,
+        "name": "필멸선 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a2b9861c-fcbc-4cb6-a3f7-a2821ba30368",
+        "time": 321,
+        "name": "거대한 화염 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8d697a6e-15c9-453c-80f1-b458b9532d2c",
+        "time": 323,
+        "name": "착탄 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0bba4409-a165-49ce-8df9-9493d7b3fe64",
+        "time": 330,
+        "name": "필멸선 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d48190c0-b1a1-4397-8ff8-357b6fadbc93",
+        "time": 331,
+        "name": "거대한 화염 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f1500fbe-e86c-4459-9b2d-029507d341d9",
+        "time": 344,
+        "name": "폭군 강하: 세쌍둥이별",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "774ef459-45f2-424f-b06d-b1455c1bbc1e",
+        "time": 345,
+        "name": "충격파 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b10a083e-d0c5-47af-83c0-189dec97111d",
+        "time": 347,
+        "name": "충격파 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5a1db277-6664-43fa-b382-9f9937fdbac8",
+        "time": 348,
+        "name": "충격파 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "162daa63-3a69-4dcc-971d-1ec9d5dde6de",
+        "time": 364,
+        "name": "절명격",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "458aeced-aca1-4238-a054-aee90acf98c2",
+        "time": 378,
+        "name": "챔피언 메테오",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "03d045e6-87f1-41f3-b107-efa2ba2ad300",
+        "time": 391,
+        "name": "탑 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ddcd1c2a-aa74-4960-a9a7-d085098a1be1",
+        "time": 399,
+        "name": "AOE #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ae39fd34-4bd7-4896-9262-353117e58915",
+        "time": 401,
+        "name": "AOE #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a24f387a-7791-45e6-9738-a78139801998",
+        "time": 403,
+        "name": "AOE #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e508d3ca-fc0d-48eb-bb5c-71ea8c56ac37",
+        "time": 406,
+        "name": "화염 숨결 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8ff7fa64-e935-4863-8bcc-50dccfd8cc81",
+        "time": 406,
+        "name": "분노의 챔피언 메테오 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "16619aec-5727-421e-afb4-687c4ecf7d8f",
+        "time": 422,
+        "name": "탑 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9c29f478-f832-4c0a-8ec9-7cf820868a34",
+        "time": 430,
+        "name": "AOE #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4e0cbff6-c7c0-41d4-8823-c909a50e4e66",
+        "time": 432,
+        "name": "AOE #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d758aabe-c257-488b-b53e-dc84f4c283da",
+        "time": 434,
+        "name": "AOE #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e9e8734d-14ed-4602-bd34-9245400e38dc",
+        "time": 437,
+        "name": "화염 숨결 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "76779b0f-3c2b-490b-9d91-b4c36ab46993",
+        "time": 437,
+        "name": "분노의 챔피언 메테오 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a83cce22-b34b-4353-a826-b1767b549bf6",
+        "time": 454,
+        "name": "거대 메테오",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9ad03f84-727d-4663-9649-4eee27f8dcfa",
+        "time": 461,
+        "name": "탑 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d0b24449-5838-4a6f-bce0-43c374a82e0d",
+        "time": 472,
+        "name": "아르카디아 파괴",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "73fad280-dc0f-49b4-97a7-4a7298a0b808",
+        "time": 482,
+        "name": "아르카디아의 제왕",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "18a31bb8-7e64-46fc-958c-d71f4ac53c75",
+        "time": 494,
+        "name": "화염 기류 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bc03b0a8-41e2-449a-9140-7ad1a5737fa5",
+        "time": 497,
+        "name": "화염 기류 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d5a1ed78-05bf-4687-b9c9-98419a0d13f4",
+        "time": 507,
+        "name": "궤도선 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2f0825a0-e115-4a68-83dd-40f71f323f98",
+        "time": 516,
+        "name": "화염과 꼬리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "08fc538e-a584-4d8d-83e6-3c4ccab6159a",
+        "time": 516,
+        "name": "궤도선 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ce148c34-e13d-42cf-97d1-d2fa79b3bc29",
+        "time": 518,
+        "name": "궤도선 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "30204184-a915-4fbd-a709-82a0ea9b1f52",
+        "time": 519,
+        "name": "궤도선 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2672a637-3582-4990-a07a-db001eb2d7bf",
+        "time": 521,
+        "name": "궤도선 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a2459f3b-5739-4e59-b757-1451224b6ddc",
+        "time": 525,
+        "name": "아르카디아의 제왕",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "07d74a94-8162-4c28-bdca-177b55a0c44b",
+        "time": 537,
+        "name": "메테오 쇄도",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8f1252a8-78c9-4167-99bb-9d18f19c308e",
+        "time": 544,
+        "name": "초거대 메테오",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ba34b50a-fe4c-49c9-8d57-d27ea2c7e01a",
+        "time": 555,
+        "name": "AOE × 6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "411d6474-fa70-45fb-b9e5-d7917855dfb8",
+        "time": 559,
+        "name": "융해 착탄 × 6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bae8694f-fdd9-4ba8-a64f-db6886a65d99",
+        "time": 560,
+        "name": "1인 탑 폭발 (탱커)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "28357df7-4d92-4dc7-aac9-4816bc07879a",
+        "time": 560,
+        "name": "2인 탑 폭발 (딜러/힐러)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "36c42d17-0969-442c-8fa8-08c0601b6d5d",
+        "time": 570,
+        "name": "분노의 챔피언 메테오",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "80abb2f4-647c-49c4-899b-c5a06c5bb7b7",
+        "time": 574,
+        "name": "2방향/4방향 스핀 파이어",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "72902662-f80f-45cd-a8bb-1c01f185eb87",
+        "time": 583,
+        "name": "아르카디아의 제왕",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6faa7054-4890-4e75-8680-636f6dc20886",
+        "time": 596,
+        "name": "심장파열격 (1회차)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6fbc6215-2d3f-4d75-a4d1-0012b62840f7",
+        "time": 615,
+        "name": "심장파열격 (2회차)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8fffea37-abac-4d4d-a86c-e4a20a347b2a",
+        "time": 636,
+        "name": "심장파열격 (3회차)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c1e6c391-950b-4423-9a1f-e9edb507e6c7",
+        "time": 662,
+        "name": "심장파괴자 (전멸기)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      }
+    ]
+  },
+  "party": [
+    {
+      "index": 0,
+      "name": "T1",
+      "jobId": null
+    },
+    {
+      "index": 1,
+      "name": "T2",
+      "jobId": null
+    },
+    {
+      "index": 2,
+      "name": "H1",
+      "jobId": null
+    },
+    {
+      "index": 3,
+      "name": "H2",
+      "jobId": null
+    },
+    {
+      "index": 4,
+      "name": "D1",
+      "jobId": null
+    },
+    {
+      "index": 5,
+      "name": "D2",
+      "jobId": null
+    },
+    {
+      "index": 6,
+      "name": "D3",
+      "jobId": null
+    },
+    {
+      "index": 7,
+      "name": "D4",
+      "jobId": null
+    }
+  ],
+  "assignments": [],
+  "phaseDividers": []
+}

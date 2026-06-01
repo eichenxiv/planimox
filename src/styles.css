@@ -1,0 +1,912 @@
+/* =========================================================================
+   1. Theme Color Palette
+   ========================================================================= */
+:root,
+[data-theme='dark'] {
+  --bg: #0d1117;
+  --panel: #161b22;
+  --panel-2: #21262d;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-dim: #8b949e;
+  --accent: #2f81f7;
+  --on-accent: #ffffff;
+  --active: #3fb950;
+  --active-bg: #12261e;
+  --magic: #58a6ff;
+  --physical: #d29922;
+  --dark: #bc8cff;
+  --danger: #f85149;
+  --cooldown: #e0a0a0;
+  --picked: #a0d0a0;
+}
+
+[data-theme='light'] {
+  --bg: #ffffff;
+  --panel: #f6f8fa;
+  --panel-2: #eaeef2;
+  --border: #d0d7de;
+  --text: #1f2328;
+  --text-dim: #656d76;
+  --accent: #0969da;
+  --on-accent: #ffffff;
+  --active: #1a7f37;
+  --active-bg: #dafbe1;
+  --magic: #0969da;
+  --physical: #9a6700;
+  --dark: #8250df;
+  --danger: #cf222e;
+  --cooldown: #b04a4a;
+  --picked: #2f7d32;
+}
+
+/* =========================================================================
+   2. Design Tokens
+   ========================================================================= */
+:root {
+  --mono: ui-monospace, Consolas, monospace;
+  --line: 1px solid var(--border);
+  --radius-sm: 3px;
+  --radius: 4px;
+  --control-h: 28px;       /* 표준 버튼/입력 높이 (툴바,모달) */
+  --control-h-lg: 34px;    /* 헤더 버튼,탭,보스명 */
+  --shadow-pop: 0 6px 16px rgba(0, 0, 0, 0.4);   /* 드롭다운,팝오버 */
+  --shadow-bar: 0 -4px 16px rgba(0, 0, 0, 0.4);  /* 하단 고정 에디터 바 */
+  --shadow-modal: 0 8px 32px rgba(0, 0, 0, 0.4); /* 모달 */
+}
+
+/* =========================================================================
+   3. Base / Reset / Layout
+   ========================================================================= */
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0; padding: 0; height: 100%;
+  background: var(--bg); color: var(--text);
+  font-family: "Noto Sans", "Noto Sans KR";
+  font-size: 13px;
+}
+
+.app { display: flex; flex-direction: column; min-height: 100vh; }
+.app-main { padding: 8px 16px 96px; }
+
+/* =========================================================================
+   4. Primitives
+   ========================================================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: var(--control-h);
+  padding: 4px 10px;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn:hover:not(:disabled) { background: var(--panel-2); color: var(--accent); }
+
+/* 강조 */
+.btn--primary { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.btn--primary:hover:not(:disabled) { background: var(--accent); color: var(--on-accent); filter: brightness(1.1); }
+
+/* 취소 */
+.btn--subtle { background: var(--border); color: var(--text); }
+.btn--subtle:hover:not(:disabled) { background: var(--border); color: var(--accent); }
+
+/* 더보기/인라인 링크형 */
+.btn--link {
+  min-height: 0;
+  padding: 0 4px;
+  background: transparent;
+  border: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+.btn--link:hover:not(:disabled) { background: transparent; text-decoration: underline; }
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  color: var(--text-dim);
+  border-radius: var(--radius-sm);
+  padding: 2px 4px;
+  line-height: 1;
+  cursor: pointer;
+}
+.icon-btn:hover:not(:disabled) { background: var(--panel-2); color: var(--accent); }
+
+/* 원형 버튼 */
+.icon-btn--round {
+  width: 32px;
+  height: 32px;
+  border: var(--line);
+  border-radius: 50%;
+  color: var(--text);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.icon-btn--round:hover { background: transparent; border-color: var(--accent); color: var(--accent); }
+
+/* 입력 필드 */
+.field {
+  background: var(--panel);
+  color: var(--text);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 4px 6px;
+  font: inherit;
+  font-size: 12px;
+}
+.field:focus { outline: none; border-color: var(--accent); }
+.field:disabled { opacity: 0.5; cursor: not-allowed; }
+.field--invalid { border-color: var(--danger); }
+.field--flush { background: transparent; border: 0; }
+
+/* 목록/메뉴 */
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: transparent;
+  color: var(--text);
+  border: 0;
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.menu-item:hover:not(:disabled) { background: var(--panel-2); }
+
+/* =========================================================================
+   5. Header
+   ========================================================================= */
+.app-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 8px 16px;
+  border-bottom: var(--line);
+  background: var(--panel);
+}
+.app-header h1 { margin: 0; font-size: 18px; font-weight: 600; white-space: nowrap; }
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-menu .menu-divider {
+  width: 1px; height: 22px; background: var(--border); margin: 0 4px;
+}
+
+/* 도움말 버튼부터 우측으로 밀기 위한 왼쪽여백 (이후 설정,테마 버튼도 따라 붙음) */
+.header-help { margin-left: auto; }
+
+/* 모바일용 (햄버거 + 우측 슬라이딩 드로어). 데스크톱에선 모두 숨김. */
+.header-actions { display: contents; }
+.menu-hamburger {
+  display: none;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 18px;
+}
+.mobile-drawer-backdrop,
+.mobile-drawer { display: none; }
+.mobile-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+  width: 75vw;
+  max-width: 280px;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 8px;
+  background: var(--panel);
+  border-left: var(--line);
+  box-shadow: var(--shadow-modal);
+  animation: drawer-in 0.18s ease-out;
+}
+@keyframes drawer-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.mobile-drawer .menu-item { padding: 10px 12px; font-size: 14px; border-radius: var(--radius); }
+.menu-divider--h { height: 1px; width: auto; margin: 6px 4px; background: var(--border); }
+
+/* =========================================================================
+   6. Toolbar
+   ========================================================================= */
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--panel-2);
+  border-bottom: var(--line);
+  flex-wrap: wrap;
+}
+.toolbar-reset { margin-left: auto; }
+
+.tab-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  height: var(--control-h-lg);
+  padding: 0 4px 0 10px;
+  background: var(--panel);
+  border: var(--line);
+  border-bottom: 0;
+  border-radius: 6px 6px 0 0;
+  color: var(--text-dim);
+  cursor: pointer;
+  max-width: 180px;
+}
+.tab:hover { background: var(--panel-2); }
+.tab-active {
+  background: var(--bg);
+  border-color: var(--accent);
+  color: var(--text);
+  cursor: default;
+  padding-left: 6px;
+  max-width: none;
+}
+.tab .tab-name {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tab-name-input,
+.tab-name-mirror {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  padding: 0 6px;
+}
+/* 활성 탭일 때 탭이름 입력부 */
+.tab-name-input {
+  min-width: 36px;
+  height: var(--control-h);
+}
+.tab-name-mirror {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  visibility: hidden;
+  white-space: pre;
+  pointer-events: none;
+}
+.tab-close {
+  font-size: 15px;
+  padding: 0 5px;
+  height: 22px;
+}
+.tab-add {
+  width: var(--control-h);
+  height: var(--control-h);
+  margin-bottom: 4px;
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 16px;
+}
+
+/* 시뮬레이터 */
+.sim-controls {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.sim-btn {
+  padding: 6px;
+  font-size: 13px;
+  line-height: 1;
+}
+.sim-btn--active {
+  color: var(--text-dim);
+  font-style: italic;
+  cursor: default;
+}
+.sim-btn--active:hover { text-decoration: none; }
+.sim-clock {
+  display: inline-flex;
+  align-items: center;
+  height: var(--control-h);
+  padding: 0 4px;
+  color: var(--accent);
+  font-weight: 700;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.sim-countdown-picker { position: relative; display: inline-flex; align-items: center; }
+.sim-caret {
+  color: var(--accent);
+  padding: 0 2px;
+  font-size: 11px;
+}
+
+/* =========================================================================
+   7. Timeline
+   ========================================================================= */
+.table-wrap {
+  overflow-x: hidden;   /* 가로 스크롤 금지: 표는 항상 창 너비에 맞춘다 */
+  overflow-y: auto;
+  border: var(--line);
+  background: var(--panel);
+  padding-bottom: 300px;
+}
+.timeline-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  table-layout: fixed;  /* 열 너비는 colgroup 으로 분배, 내용으로 늘어나지 않게 */
+}
+.timeline-table th,
+.timeline-table td {
+  border-right: var(--line);
+  border-bottom: var(--line);
+  padding: 4px 6px;
+  vertical-align: middle;
+}
+
+/* 타임라인 헤더 행 */
+.timeline-table thead th {
+  position: sticky; top: 0;
+  background: var(--panel-2);
+  z-index: 2;
+}
+.boss-head { white-space: nowrap; }
+.boss-head--actions { width: 72px; }
+
+/* 직업 선택 셀 */
+.char-header {
+  overflow: hidden;  /* 너비는 colgroup 이 분배 */
+}
+.char-header .char-name {
+  display: block;
+  width: 100%;
+  background: var(--panel-2);
+  color: var(--text);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 3px 4px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: var(--mono);
+}
+/* .char-job 은 .field 사용. 헤더 셀 안에서 폭만 설정할 것. */
+.char-job { display: block; width: 100%; }
+
+/* 보스 스킬 셀 */
+.boss-row .boss-cell { background: var(--panel); }
+.boss-row--highlight .boss-cell,
+.boss-row--highlight .mit-cell {
+  background: color-mix(in srgb, var(--accent) 22%, var(--panel));
+}
+.boss-row--highlight .boss-cell--time {
+  border-left: 3px solid var(--accent);
+}
+/* 행 마우스오버 시 전체 행 배경 강조 (highlight 보다 뒤에 두어 우선) */
+.boss-row:hover .boss-cell,
+.boss-row:hover .mit-cell {
+  background: color-mix(in srgb, var(--accent) 22%, var(--panel));
+}
+.boss-row-actions {
+  display: flex; gap: 4px; justify-content: center;
+}
+
+/* time, attr, damage, actions 가운데 정렬 */
+.boss-cell--time,
+.boss-cell--attr,
+.boss-cell--damage,
+.boss-cell--actions { text-align: center; white-space: nowrap;}
+.boss-cell--time {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+.attr-magic    { border-left: 3px solid var(--magic); }
+.attr-physical { border-left: 3px solid var(--physical); }
+.attr-dark     { border-left: 3px solid var(--dark); }
+
+/* skill name, description 왼쪽 정렬*/
+.boss-cell--name { font-weight: 600; word-break: break-word; }
+.boss-cell--desc { color: var(--text-dim); word-break: break-word; }
+
+/* 페이즈 구분 행 */
+.timeline-table .phase-divider-row td {
+  padding: 0;
+  background: var(--panel-2);
+  border-left: 3px solid var(--accent);
+}
+.phase-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 8px;
+}
+.phase-divider-mark {
+  color: var(--accent);
+  font-weight: 700;
+}
+/* .phase-divider-label 은 .field .field--flush 사용. 인라인 강조 스타일만. */
+.phase-divider-label {
+  flex: 1;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding: 2px 0;
+}
+.phase-divider-label::placeholder { color: var(--text-dim); }
+.phase-divider-actions {
+  display: flex;
+  gap: 2px;
+}
+
+/* Mitigation */
+.timeline-table td.mit-cell { padding: 0; }
+.mit-cell {
+  background: var(--panel);
+  position: relative;
+}
+.mit-cell--active { background: var(--active-bg); }
+.mit-cell--pickable { cursor: pointer; }
+.mit-cell-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 30px;
+  position: relative;
+}
+.mit-row {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 4px;
+  min-height: 30px;
+}
+.mit-row + .mit-row { border-top: var(--line); }
+.mit-row:hover { background: var(--panel-2); }
+/* 임의 텍스트 행: 아이콘 칸 폭 0 + 텍스트 줄바꿈 허용(말줄임 대신 여러 줄) */
+.mit-row--custom { grid-template-columns: 0 1fr; gap: 0; }
+.mit-row--custom .mit-row-name {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.mit-row-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mit-row-name {
+  font-size: 12px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.mit-row-target {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+}
+.mit-effects {
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  display: flex;
+  gap: 1px;
+  opacity: 0.75;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Mitigation 자동완성 입력: .field 위에 항상 accent 보더 + 셀 꽉 채움 */
+.mit-autocomplete {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.mit-autocomplete-input {
+  border-color: var(--accent);
+  border-radius: 0;
+  width: 100%;
+  height: 26px;
+  padding: 0 6px;
+}
+
+/* 스킬 아이콘 */
+.skill-icon {
+  display: inline-block;
+  border-radius: var(--radius-sm);
+  background: var(--panel-2);
+  vertical-align: middle;
+}
+.skill-icon--text {
+  text-align: center;
+  background: var(--border);
+  color: var(--text);
+  padding: 2px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-row { text-align: center; color: var(--text-dim); padding: 16px; }
+
+/* =========================================================================
+   8. Editor (footer bar)
+   ========================================================================= */
+.editor-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  background: var(--panel);
+  border-top: var(--line);
+  box-shadow: var(--shadow-bar);
+  padding: 8px 16px;
+}
+.editor-bar-title {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.editor-bar .boss-editor {
+  background: transparent;
+  padding: 0;
+}
+
+.boss-editor {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  padding: 6px;
+  background: var(--panel-2);
+  border-radius: var(--radius);
+}
+/* boss-editor 입력들은 .field 사용. 폭만 지정. */
+.be-time { width: 120px; }
+.be-name { min-width: 140px; }
+.be-damage { min-width: 140px; }
+.be-desc { flex: 1; min-width: 140px; }
+.be-error { color: var(--danger); align-self: center; }
+
+/* =========================================================================
+   9. Popups
+   ========================================================================= */
+
+/* 드롭다운 팝오버 */
+.sim-menu,
+.mit-autocomplete-list,
+.mit-autocomplete-targets {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  background: var(--panel);
+  border: var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-pop);
+}
+.sim-menu {
+  z-index: 40;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  min-width: 64px;
+}
+/* .sim-menu-item 은 .menu-item 사용. 가운데 정렬,강조 설정. */
+.sim-menu-item { text-align: center; font-size: 12px; }
+.sim-menu-item.is-active { color: var(--accent); font-weight: 700; }
+
+.mit-autocomplete-list {
+  min-width: 220px;
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 50;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+/* .mit-autocomplete-item 은 .menu-item 사용. 크기,상태색 설정. */
+.mit-autocomplete-item { padding: 3px 6px; font-size: 11px; }
+.mit-autocomplete-item.is-highlight:not(:disabled) {
+  background: var(--panel-2);
+  outline: 1px solid var(--accent);
+}
+.mit-autocomplete-item:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.mit-autocomplete-item--cooldown { color: var(--cooldown); }
+.mit-autocomplete-item--already-picked { color: var(--picked); }
+.mit-autocomplete-item--custom { color: var(--accent); }
+.mit-autocomplete-name { flex: 1; font-weight: 600; }
+.mit-autocomplete-meta { color: var(--text-dim); font-size: 10px; }
+
+.mit-autocomplete-targets {
+  min-width: 220px;
+  z-index: 50;
+  padding: 6px;
+}
+.mit-autocomplete-targets-header {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+.mit-autocomplete-targets-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+}
+.mit-autocomplete-targets-grid button {
+  background: var(--panel-2);
+  color: var(--text);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 4px 6px;
+  cursor: pointer;
+  font-size: 11px;
+  text-align: left;
+}
+.mit-autocomplete-targets-grid button:hover { border-color: var(--accent); }
+.mit-autocomplete-targets-cancel {
+  margin-top: 5px;
+  width: 100%;
+  background: transparent;
+  color: var(--text-dim);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 3px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.mit-autocomplete-targets-cancel:hover { color: var(--text); }
+
+/* 모달 */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal {
+  background: var(--panel);
+  border: var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  /* 너비 40vw, 높이는 너비의 0.75 */
+  width: 40vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow-modal);
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+/* .modal-close 는 .icon-btn 사용. 크기 설정. */
+.modal-close { font-size: 20px; padding: 0 4px; }
+
+/* 내용이 적은 모달(설정 등): 고정 비율 대신 내용 높이에 맞춘다. */
+.modal--sm { width: 320px; height: auto; }
+
+/* 설정 모달 섹션 */
+.settings-section-title {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.settings-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+/* .settings-item 은 .menu-item(체크박스 행) 사용 */
+.settings-item { user-select: none; }
+.settings-section input[type='checkbox'] { accent-color: var(--accent); cursor: pointer; }
+
+/* 모달 내부 탭 */
+.modal-tabs { display: flex; gap: 4px; }
+.modal-tab {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--text-dim);
+  padding: 4px 8px 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.modal-tab:hover { color: var(--text); }
+.modal-tab--active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* 프리셋 내 대/중/소 분류 트리 */
+.preset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+/* .preset-group-label / .preset-item 은 .menu-item 사용. 글꼴,여백 설정. */
+.preset-group-label {
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 6px 8px 2px;
+}
+.preset-group-label:hover { color: var(--text); }
+.preset-caret { font-size: 9px; width: 8px; display: inline-block; }
+.preset-item { padding: 6px 8px; font-size: 13px; }
+.preset-note { color: var(--text-dim); font-size: 13px; padding: 16px 8px; text-align: center; }
+
+/* 모달 본문 */
+.modal-hint { margin: 0; font-size: 12px; color: var(--text-dim); }
+.modal-error { color: var(--danger); font-size: 13px; }
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+/* 공유 모달 푸터: 좌측 CSV 토글 + 우측 버튼 그룹 */
+.modal-actions--split { justify-content: space-between; align-items: center; }
+.share-actions-buttons { display: flex; gap: 8px; }
+.share-csv {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-dim);
+  cursor: pointer;
+  user-select: none;
+}
+.share-csv input[type='checkbox'] { accent-color: var(--accent); cursor: pointer; }
+/* 모달 textarea(가져오기/공유): .field 위에 패널-2 배경 + 가득 채움 */
+.modal-textarea {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  resize: none;
+  background: var(--panel-2);
+  border-radius: var(--radius);
+  padding: 8px;
+  font-family: var(--mono);
+  word-break: break-word;
+}
+
+/* 마크다운 텍스트 */
+.md-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  word-break: break-word;
+}
+.md-content > :first-child { margin-top: 0; }
+.md-content > :last-child { margin-bottom: 0; }
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+  margin: 1.2em 0 0.5em;
+  line-height: 1.3;
+}
+.md-content h1 { font-size: 1.6em; }
+.md-content h2 { font-size: 1.35em; }
+.md-content h3 { font-size: 1.15em; }
+.md-content p { margin: 0.6em 0; }
+.md-content ul,
+.md-content ol { margin: 0.6em 0; padding-left: 1.5em; }
+.md-content li { margin: 0.2em 0; }
+.md-content a { color: var(--accent); }
+.md-content code {
+  font-family: var(--mono);
+  font-size: 0.9em;
+  background: var(--panel-2);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.35em;
+}
+.md-content pre {
+  background: var(--panel-2);
+  border: var(--line);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  overflow-x: auto;
+}
+.md-content pre code { background: none; border: none; padding: 0; }
+.md-content blockquote {
+  margin: 0.6em 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--border);
+  color: var(--text-dim);
+}
+.md-content hr { border: none; border-top: var(--line); margin: 1em 0; }
+.md-content table { border-collapse: collapse; margin: 0.6em 0; }
+.md-content th,
+.md-content td { border: var(--line); padding: 4px 8px; }
+
+/* =========================================================================
+   10. Mobile (on-going)
+   ========================================================================= */
+@media (max-width: 640px) {
+  .app-header { gap: 8px; }
+  .app-header h1 { font-size: 16px; }
+
+  /* 우측 햄버거 메뉴 > 드로어 */
+  .header-menu,
+  .header-help,
+  .settings-open,
+  .header-theme { display: none; }
+  .menu-hamburger { display: inline-flex; margin-left: auto; }
+  .mobile-drawer { display: flex; }
+  .mobile-drawer-backdrop { display: block; }
+
+  /* 활성 탭 이름 */
+  .tab-name-input { min-width: 0; }
+
+  /* 타임라인: 가로 스크롤 허용 및 가독성을 위한 열 너비 확보  */
+  .table-wrap { overflow-x: auto; }
+  .timeline-table { table-layout: auto; width: auto; min-width: 100%; }
+  .char-header,
+  .timeline-table td.mit-cell { min-width: 108px; }
+  .boss-cell--name { min-width: 120px; }
+  .mit-row-name { white-space: nowrap; }
+
+  /* 에디터 바 하단 폭 확보 */
+  .app-main { padding-bottom: 160px; }
+
+  /* 모달 */
+  .modal { width: 92vw; height: 85vh; }
+  .modal--sm { width: 92vw; height: auto; }
+}

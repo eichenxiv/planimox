@@ -1,0 +1,753 @@
+{
+  "version": 1,
+  "bossTimeline": {
+    "name": "M12S P1",
+    "skills": [
+      {
+        "id": "61f7ff12-3e59-49c1-93de-e5a0dd93a0d2",
+        "time": 15,
+        "name": "아르카디아의 배후자",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d74f89d1-2c6d-41b5-9cc3-23c0f13bd60a",
+        "time": 41,
+        "name": "죽음의 재앙 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "44edf6e6-c9ce-48d8-ad31-a31b1e17982f",
+        "time": 44,
+        "name": "죽음의 재앙 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "aee22d9e-60ae-4190-9117-e3f834ae2c20",
+        "time": 47,
+        "name": "죽음의 재앙 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "54339bc3-bec1-47c3-9296-a3487611accc",
+        "time": 50,
+        "name": "죽음의 재앙 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "19d2b741-d96c-4091-bd9d-bfa706f86b93",
+        "time": 70,
+        "name": "세포 부착: 초기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "86f16df8-821c-4394-beda-ece20ff1d5d3",
+        "time": 79,
+        "name": "세포 낙하 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "252ba410-17dc-486c-b339-c79004c42254",
+        "time": 81,
+        "name": "세포 낙하 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9d8ef57e-1589-40e9-bd53-0c90d8e0a3a8",
+        "time": 83,
+        "name": "세포 낙하 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3f5905f6-be11-49ef-99fe-5bb2b01a1a50",
+        "time": 85,
+        "name": "세포 낙하 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3f8eee59-fb12-4d1f-9507-bd67bba024fd",
+        "time": 88,
+        "name": "탐욕스러운 손길",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8c7aa797-2959-4d63-aaea-0194db405eb9",
+        "time": 88,
+        "name": "세포 겹폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "748fe433-27df-4cda-9b16-70925d8a23d6",
+        "time": 88,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "dac5e205-7f1e-4886-b04e-4fddaddaaa22",
+        "time": 97,
+        "name": "대폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "097f3a5d-2760-41c5-936f-54d364cc8aa8",
+        "time": 98,
+        "name": "내장 파열",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9f86c610-8ffa-4cdf-92b6-34949f91ece6",
+        "time": 98,
+        "name": "세포 겹폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fee474a5-ae08-48ac-8e72-e023176312a8",
+        "time": 108,
+        "name": "아르카디아의 배후자",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1a508cef-9384-487f-b510-baf2995e06fc",
+        "time": 117,
+        "name": "자동 공격x3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8c652eb2-f983-41fc-b856-5952b5995ff6",
+        "time": 120,
+        "name": "세포 부착: 중기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "90170b9e-7b3b-4e18-85f0-d207a011b8b5",
+        "time": 129,
+        "name": "자동 공격x4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "70b3b2c2-96fc-4e5c-8d65-2c15d87b76db",
+        "time": 129,
+        "name": "세포 낙하 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d49a9f0b-c642-4b8a-ad29-81e5d98bb18e",
+        "time": 131,
+        "name": "세포 낙하 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "05f15d02-8c4f-41df-8fb9-bc79bd44f564",
+        "time": 133,
+        "name": "세포 낙하 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2c9cff8b-9bc2-4d3e-a17f-31746121619b",
+        "time": 135,
+        "name": "세포 낙하 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b8412799-b6f6-4ecb-9340-ea4bae02d9b6",
+        "time": 135,
+        "name": "잔혹한 똬리",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "994359c0-f464-4a73-bdc8-43fc28109864",
+        "time": 141,
+        "name": "뱀껍질 균열 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c29d6dc9-ddec-4c17-8026-6011e150c46f",
+        "time": 147,
+        "name": "뱀껍질 균열 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9f157159-b2e9-44a5-a293-cff5300a3ae7",
+        "time": 150,
+        "name": "세포 폭발 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "867e34d5-cd1b-4086-8293-d30ee69b7520",
+        "time": 152,
+        "name": "뱀껍질 균열 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8a757eb8-20eb-4be3-a50a-bd757e3c3dfb",
+        "time": 154,
+        "name": "세포 변이 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "cb259fee-7a33-49e5-b8cb-0d80c6e87b07",
+        "time": 154,
+        "name": "세포 폭발 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b17b544f-85c6-4775-b4ab-6e1bcc3f904e",
+        "time": 157,
+        "name": "뱀껍질 균열 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a4e4f5fb-1036-4032-8ad6-01dccce327e2",
+        "time": 159,
+        "name": "세포 변이 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8287ff2e-e3df-4914-93cd-5014ab9cbc8f",
+        "time": 159,
+        "name": "세포 폭발 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e293e9c8-cabc-4170-bcba-18045be5f87a",
+        "time": 162,
+        "name": "뱀껍질 균열 #5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "11b148ec-a084-46b3-bedf-c0e79bb95be7",
+        "time": 164,
+        "name": "세포 변이 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0822d3c3-10c7-4b4b-9488-21f6ae4e9c53",
+        "time": 164,
+        "name": "세포 폭발 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a72808ff-df26-4ca7-9102-a9b318fd2f50",
+        "time": 166,
+        "name": "뱀껍질 균열 #6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "954f473f-c4ef-4ab0-93fe-118b91ddb1fd",
+        "time": 169,
+        "name": "세포 변이 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0c3e087c-9e6b-4900-b052-5a02f5e461bf",
+        "time": 172,
+        "name": "뱀껍질 균열 #7 (종료)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f8dd2f03-8f6a-4339-bd9c-ee060ee6f6d4",
+        "time": 177,
+        "name": "옥죄기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2a7441c8-4eac-4d9e-9d8f-2e29269e37c4",
+        "time": 188,
+        "name": "유혈의 허물",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "25c92fc9-9036-4a9b-a9ed-1e6823ccf742",
+        "time": 206,
+        "name": "세포 부착: 후기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c13c70c4-d74b-4c0a-a0a4-a0520462bcdd",
+        "time": 212,
+        "name": "야성적인 분열",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "83830352-04cc-4766-97aa-361045cefa00",
+        "time": 216,
+        "name": "장내를 흔드는 갈채",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "82c36bf9-76cc-4bf0-afdc-165da4df74e4",
+        "time": 219,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2119e94c-6e54-42b0-be4c-a871c973cf07",
+        "time": 219,
+        "name": "세포 살포",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "af0c424e-4eee-4ab8-abc6-af9ae1e30ed0",
+        "time": 229,
+        "name": "분열된 재앙",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "77039a0a-b7ca-451e-9f1e-18cf633519e3",
+        "time": 231,
+        "name": "재앙 투하",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d30ecf95-fcd1-4efa-8eab-b40031d8c9b3",
+        "time": 241,
+        "name": "아르카디아의 배후자",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "60e06f60-548a-4125-b800-b17363c73d33",
+        "time": 253,
+        "name": "세포 부착: 말기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "672864f0-1df0-4c5d-8124-6d8dd0932d9a",
+        "time": 257,
+        "name": "세포 낙하 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f23fd631-ecc5-4eb2-b9c5-73a556e5ce7a",
+        "time": 259,
+        "name": "세포 낙하 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "44194eea-a20f-4fc9-88e0-494090f14dbb",
+        "time": 261,
+        "name": "세포 낙하 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "754042f8-6f9a-4931-be68-6afa8b52ce0e",
+        "time": 263,
+        "name": "세포 낙하 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a19343ba-8543-465a-870b-54bf0205e9ff",
+        "time": 265,
+        "name": "세포 낙하 #5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "16b4579d-f00a-4ec3-ab67-807b182aed5d",
+        "time": 268,
+        "name": "탐욕스러운 손길",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "cbec5727-5551-4266-a790-d1deefbac808",
+        "time": 268,
+        "name": "세포 소실",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "93cf789a-adb9-406b-b25b-600d0c13b370",
+        "time": 268,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b5601536-2992-4b24-bd4f-a7ecee45c7e8",
+        "time": 277,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7768b72b-9ff9-4b30-bbb8-c5708d4f27c2",
+        "time": 281,
+        "name": "대폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4736ce60-88c1-4dcd-acc4-16f48fd91c39",
+        "time": 290,
+        "name": "유혈의 허물",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1f1b5800-d2d9-4761-b2ff-96a3998b04b7",
+        "time": 316,
+        "name": "죽음의 재앙 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c30ed9f5-d623-430c-a906-2d51d548f35f",
+        "time": 319,
+        "name": "죽음의 재앙 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2f75a5cf-83cc-43db-8c0c-663404e134cc",
+        "time": 322,
+        "name": "죽음의 재앙 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "158a1cdf-cf97-4bb9-ae51-38bb8a99889f",
+        "time": 325,
+        "name": "죽음의 재앙 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c8462d76-f693-4121-a9e2-83f82b7d0503",
+        "time": 340,
+        "name": "살육의 허물",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6b2c4927-9efc-4b56-ab37-e07ac6702895",
+        "time": 351,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6bb31982-3ebe-4b73-9469-ffe56b4015a3",
+        "time": 351,
+        "name": "세포 겹폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4238e37f-c7b7-4d8e-9875-37928d823b44",
+        "time": 352,
+        "name": "대폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "33a7bded-2b43-43c5-83f4-aa016c726c10",
+        "time": 358,
+        "name": "재앙의 숨결 or 맹수의 주먹#1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7352f00a-8827-4829-9a2e-d6165141ec58",
+        "time": 362,
+        "name": "재앙의 숨결 or 맹수의 주먹#2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5004a6ec-45d2-4092-884d-ebeee48d7d51",
+        "time": 369,
+        "name": "살육의 허물",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "17751690-9a17-40b4-ba01-ac3ad29431cb",
+        "time": 380,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7773399a-54d8-4a08-9ca3-354f0c4765de",
+        "time": 380,
+        "name": "세포 겹폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8b4ece84-5426-436a-ba3a-e832c756c67f",
+        "time": 381,
+        "name": "대폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "873263f5-f4b9-4b6c-808b-8bcc15444329",
+        "time": 386,
+        "name": "재앙의 숨결 or 맹수의 주먹#1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "af4cbffb-069a-4e51-87be-53defc290293",
+        "time": 391,
+        "name": "재앙의 숨결 or 맹수의 주먹#2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "325aadc2-ca84-4fb8-9354-9b8c5e62cdaa",
+        "time": 398,
+        "name": "살육의 허물",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fb07ccdf-1829-4b39-a654-c5ba8c6f741c",
+        "time": 409,
+        "name": "세포 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ae1ac44b-bad9-455c-a536-6226c5df52fc",
+        "time": 409,
+        "name": "세포 겹폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "78afe94f-8c6f-49c9-b242-0593b9e97414",
+        "time": 409,
+        "name": "대폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4305f55a-a54d-45e3-a186-5b12ff60276e",
+        "time": 416,
+        "name": "재앙의 숨결 or 맹수의 주먹#1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "29160ed7-ac61-4924-9c83-a127a238f631",
+        "time": 420,
+        "name": "재앙의 숨결 or 맹수의 주먹#2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "74c4e7f3-0426-4a71-82fd-282a97199136",
+        "time": 438,
+        "name": "오버큐어 오버킬",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      }
+    ]
+  },
+  "party": [
+    {
+      "index": 0,
+      "name": "T1",
+      "jobId": null
+    },
+    {
+      "index": 1,
+      "name": "T2",
+      "jobId": null
+    },
+    {
+      "index": 2,
+      "name": "H1",
+      "jobId": null
+    },
+    {
+      "index": 3,
+      "name": "H2",
+      "jobId": null
+    },
+    {
+      "index": 4,
+      "name": "D1",
+      "jobId": null
+    },
+    {
+      "index": 5,
+      "name": "D2",
+      "jobId": null
+    },
+    {
+      "index": 6,
+      "name": "D3",
+      "jobId": null
+    },
+    {
+      "index": 7,
+      "name": "D4",
+      "jobId": null
+    }
+  ],
+  "assignments": [],
+  "phaseDividers": [
+    {
+      "id": "4746a83e-00c6-4104-9808-2f4c59aa9ea7",
+      "label": "세포 부착: 초기",
+      "beforeSkillId": "19d2b741-d96c-4091-bd9d-bfa706f86b93"
+    },
+    {
+      "id": "7208ed51-3778-4a0c-864a-c3298f3f5663",
+      "label": "세포 부착: 중기",
+      "beforeSkillId": "8c652eb2-f983-41fc-b856-5952b5995ff6"
+    },
+    {
+      "id": "a8554c49-c5ee-4c70-8141-abd92345d66a",
+      "label": "세포 부착: 후기",
+      "beforeSkillId": "25c92fc9-9036-4a9b-a9ed-1e6823ccf742"
+    },
+    {
+      "id": "b5b9c020-9635-4a1f-84dd-412a5db60aaa",
+      "label": "세포 부착: 말기",
+      "beforeSkillId": "60e06f60-548a-4125-b800-b17363c73d33"
+    }
+  ]
+}

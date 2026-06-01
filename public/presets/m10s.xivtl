@@ -1,0 +1,884 @@
+{
+  "version": 1,
+  "bossTimeline": {
+    "name": "M10S",
+    "skills": [
+      {
+        "id": "711e1267-5b28-4588-aed9-0640bb096c88",
+        "time": 15,
+        "name": "핫 임팩트",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b502257b-dfe3-45a9-8a27-f8aa287bb246",
+        "time": 31,
+        "name": "불꽃 올라타기 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "faef818d-46a7-4562-84ae-d0af16f61afa",
+        "time": 34,
+        "name": "불꽃 올라타기 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0901715f-dd99-42c0-8313-e750b9cf42b9",
+        "time": 37,
+        "name": "불꽃 올라타기 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fde2b689-1de4-406d-b375-d30a511be2d2",
+        "time": 40,
+        "name": "불꽃 올라타기 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1d432beb-1e47-4bcf-beda-3fe1cdabec5a",
+        "time": 54,
+        "name": "불꽃 뛰어돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "72e18044-fe66-48ea-9816-a4e3006ea772",
+        "time": 63,
+        "name": "불꽃 되돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "bc29bd2e-ca07-49dd-a734-992a17453729",
+        "time": 70,
+        "name": "불꽃 회전 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c71d2e3a-e814-4c64-a13f-2d4627ca38f5",
+        "time": 72,
+        "name": "불꽃 회전 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0931c7e2-0b04-4fcc-a083-fde630d4fd6f",
+        "time": 74,
+        "name": "불꽃 회전 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5ffacc54-3d6b-416d-bdfb-730be6233f63",
+        "time": 83,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b248f2ab-04b0-4c06-b27a-f49e0e74a580",
+        "time": 97,
+        "name": "끝내주는 파도 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "714963cb-c7b0-4526-b247-8b14c5bedcd6",
+        "time": 107,
+        "name": "끝내주는 파도오름",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e3aa39fe-d965-49b7-acb0-451fa28dab79",
+        "time": 116,
+        "name": "끝내주는 파도 (넉백)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "77420937-7d3d-49be-b39d-cd6e4e93edf4",
+        "time": 116,
+        "name": "끝내주는 파도 (보스 돌진)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "2f41e2ce-25d4-4c55-9ef9-f6e4b77635fa",
+        "time": 118,
+        "name": "물결 덮기 / 뒤덮기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a63829b4-c4e7-42ef-a1d6-faebf476fd50",
+        "time": 127,
+        "name": "이중 / 반전 뛰어돌기 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "be96334b-d61a-4ba3-b651-722060c649d0",
+        "time": 129,
+        "name": "이중 / 반전 뛰어돌기 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e386a734-f447-4009-896b-823c12cb7a56",
+        "time": 137,
+        "name": "딥 임팩트",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a9ca5161-3cbe-40c5-b36c-99f1a97c60c5",
+        "time": 144,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "18e0e466-73fe-4780-919c-9830baf1d1e4",
+        "time": 161,
+        "name": "익스트림 스펙터클 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "60866184-cb23-4ccd-a552-7dfee96e738a",
+        "time": 174,
+        "name": "익스트림 스펙터클 (공격)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f2dc5e3c-9449-4e31-9b66-c8882d9f0810",
+        "time": 177,
+        "name": "타겟 가능",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ef664cbe-214a-4ce4-aba6-3cc252496651",
+        "time": 180,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "982d2d8f-f979-4a3f-9916-f0fb5e2cbb01",
+        "time": 198,
+        "name": "광란의 공중 기술 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "efa8c7f8-e06d-4575-b174-a75fed79a7f3",
+        "time": 205,
+        "name": "광란의 공중 기술 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b80db749-ab54-46d5-bb40-d3df8867e18f",
+        "time": 212,
+        "name": "광란의 공중 기술 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "839136fc-1d23-41be-9b11-ccc9fb4cab82",
+        "time": 220,
+        "name": "광란의 공중 기술 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c9c6fa8a-f963-4569-95f7-47f7dbc8dd94",
+        "time": 230,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5fec7862-40ae-4fa6-8846-9e9a77fdb8b4",
+        "time": 238,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9de7e621-ab09-49dd-9bff-89fb732598f0",
+        "time": 245,
+        "name": "불꽃/물결 선점",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "63e8a193-7798-4e55-94ef-a66453912633",
+        "time": 259,
+        "name": "불꽃 뛰어돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "dc018357-1136-4e48-9296-783344e70ea2",
+        "time": 259,
+        "name": "이중 / 반전 뛰어돌기 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a5ae9f78-9540-44d0-9ac4-bb814b2159d8",
+        "time": 262,
+        "name": "이중 / 반전 뛰어돌기 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "22df0932-2894-4da1-aa1b-1ab355dc85fb",
+        "time": 264,
+        "name": "끝내주는 파도 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "60cceff9-8a6a-432d-9f96-7d69cd7a5ffe",
+        "time": 270,
+        "name": "핫 임팩트",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7f544401-5e5a-4274-9be9-13ca59632429",
+        "time": 278,
+        "name": "물결 보드 꺾기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d33818e3-9026-41d2-b747-2e5aca84a9f0",
+        "time": 280,
+        "name": "불꽃 뛰어돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "78202605-1f99-46ab-9850-7240b6c066bc",
+        "time": 280,
+        "name": "물결 덮기 / 뒤덮기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5976f286-1eb6-40ec-87e5-8956937a5f36",
+        "time": 291,
+        "name": "불꽃 공중회전 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "43aedc35-ac3b-431b-b651-e3c5b78d6693",
+        "time": 293,
+        "name": "불꽃 공중회전 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5a00804a-a9bb-4bde-94f7-a1a077363b10",
+        "time": 293,
+        "name": "끝내주는 파도오름",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3266f423-fd9f-49f3-931a-9c8aa53d5024",
+        "time": 295,
+        "name": "불꽃 공중회전 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "aaeb8d85-366d-4fd6-9fa0-c0be3f6d54a9",
+        "time": 297,
+        "name": "불꽃 공중회전 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3f685c75-d04c-47f2-804b-e280ce056275",
+        "time": 302,
+        "name": "끝내주는 파도 (넉백)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "0c19639f-dd71-42a0-96e2-f29e8cb8e19d",
+        "time": 302,
+        "name": "끝내주는 파도 (보스 돌진)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "fad1d48d-156d-4fad-a14b-74a86df4c948",
+        "time": 305,
+        "name": "물결 덮기 / 뒤덮기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7bb3483d-cadf-4551-a125-008bdacbdb3f",
+        "time": 309,
+        "name": "불꽃 되돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "55c844e1-de55-4c86-8d30-829276ed617e",
+        "time": 315,
+        "name": "딥 임팩트",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5187358d-685b-42d5-887b-ea85526989c9",
+        "time": 322,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "892d3991-985d-4a81-9455-94f496580245",
+        "time": 328,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6596cd0e-f4fc-4315-8c70-b8bf3ac62875",
+        "time": 337,
+        "name": "물결 공중회전",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "098667a9-3c8e-4e13-a35a-75d96f1b9867",
+        "time": 339,
+        "name": "물감옥",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "95453e02-68de-4494-a11a-c2ae756a46d2",
+        "time": 348,
+        "name": "익스트림 웨이브 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "8b8681a5-995e-4f14-a53d-6aa2f8d2b20d",
+        "time": 350,
+        "name": "물불 작렬 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7df3265b-1d47-47e5-ad4d-82d8a96a8fd3",
+        "time": 356,
+        "name": "익스트림 웨이브 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "505849a7-dea9-4870-9208-c0d8cd37975a",
+        "time": 358,
+        "name": "물불 작렬 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "e8d9ccb7-046e-41e7-b1ff-641cd561ae42",
+        "time": 365,
+        "name": "익스트림 웨이브 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6198a313-d2d1-4bdd-b2ed-5acd8193e128",
+        "time": 367,
+        "name": "물불 작렬 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "931bb8cc-292b-46a4-aae6-dea067df71d5",
+        "time": 373,
+        "name": "익스트림 웨이브 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6f601ac7-6868-4fad-b156-4e9c8150d5b3",
+        "time": 375,
+        "name": "물불 작렬 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6cb26048-a6f3-477d-b1c2-0bb28b5f9ddb",
+        "time": 382,
+        "name": "익스트림 웨이브 #5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a9c707f4-959b-4e46-816c-41eb4f195319",
+        "time": 384,
+        "name": "물불 작렬 #5",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "650e7745-4675-4d3f-ab5e-d04e4ca5627a",
+        "time": 390,
+        "name": "익스트림 웨이브 #6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d3f74a02-a35d-4556-a34f-4f94a5c2ab12",
+        "time": 392,
+        "name": "물불 작렬 #6",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "293c063b-76cd-479a-a126-8139b1f30158",
+        "time": 401,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1bff38f1-6b91-494e-b691-ca7dd3d177ee",
+        "time": 407,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5770a7de-595e-42af-b745-f2cad1f760db",
+        "time": 413,
+        "name": "끝내주는 파도 (시전)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "24ac6408-3f33-4192-9f8d-6fef11ce1913",
+        "time": 417,
+        "name": "불꽃 올라타기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "61bafd4c-7b7b-4956-bed6-9ecd020936df",
+        "time": 426,
+        "name": "불꽃 뛰어돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b3850ee6-0151-4488-9abe-a11ddfcc48ac",
+        "time": 431,
+        "name": "이중 / 반전 뛰어돌기 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "ffd40091-b65b-48c5-bbda-c0703fdbf73b",
+        "time": 434,
+        "name": "이중 / 반전 뛰어돌기 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5c25b7a0-5713-4df3-ab82-c7ac41c77922",
+        "time": 436,
+        "name": "물불 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5f7d6482-be3a-472b-8275-b40c96097c73",
+        "time": 438,
+        "name": "끝내주는 파도오름",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9615fa7c-32f9-41af-bf55-c5159dc49f74",
+        "time": 439,
+        "name": "물불 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "47cad406-f3c6-4b33-97aa-c659eb82e3da",
+        "time": 439,
+        "name": "기묘한 불꽃 회전",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "7cbcac5b-d251-4b26-9d4b-b74b66327dd7",
+        "time": 447,
+        "name": "끝내주는 파도 (넉백)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "97e1e13a-583d-4c84-adca-655eef429a74",
+        "time": 447,
+        "name": "끝내주는 파도 (보스 돌진)",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "3352d1b5-cd47-4896-8a44-0e27459e749e",
+        "time": 450,
+        "name": "물결 덮기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4a613b64-561a-4dda-bb37-6c8e51971a7c",
+        "time": 452,
+        "name": "물불 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "575dcc3a-3772-4517-8efc-347050832b3d",
+        "time": 455,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "357976a3-7348-4f3f-8618-0369279280de",
+        "time": 463,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9fa4514b-465b-4aba-b0c0-290b85f320fc",
+        "time": 470,
+        "name": "익스트림 불꽃/물결 선점",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a1c38736-4a37-4b24-973c-28b9f645680e",
+        "time": 488,
+        "name": "광란의 공중 기술 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "99e2dbac-6a45-4e87-b2f4-2137a27c7d42",
+        "time": 490,
+        "name": "비상 탈출 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "687ea464-948a-4989-a4cf-e43c6c3dcd1e",
+        "time": 498,
+        "name": "광란의 공중 기술 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "d07aa2a2-307e-4da2-9450-a9c18bf23a5f",
+        "time": 500,
+        "name": "비상 탈출 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "a1f521ee-2f22-44ac-803a-95cbdd4395df",
+        "time": 509,
+        "name": "광란의 공중 기술 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "904043b5-bfbd-4076-8dd6-d513b2b9f428",
+        "time": 511,
+        "name": "비상 탈출 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6db669ee-08fd-4497-9dad-c9842d48f028",
+        "time": 519,
+        "name": "광란의 공중 기술 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b00febb7-b51f-485b-a0ed-58e9d0bb1b0f",
+        "time": 521,
+        "name": "비상 탈출 #4",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c45c22eb-c98a-4ccf-8edc-6a6b3e5fde55",
+        "time": 529,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "64cf97b8-54e1-4f3b-96e2-750254b3a27f",
+        "time": 535,
+        "name": "형제애",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "1efd776c-e07a-4cd1-8c27-6a70e9010004",
+        "time": 545,
+        "name": "이중 / 반전 뛰어돌기 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "c07d6cb8-d94b-48a4-b2b0-2e7919315ad1",
+        "time": 547,
+        "name": "불꽃 뛰어돌기",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "f131f28f-9cc3-4924-a106-05872d4d001e",
+        "time": 548,
+        "name": "이중 / 반전 뛰어돌기 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "4f612510-eabc-45f9-a3c3-06b110b4d890",
+        "time": 552,
+        "name": "융합 폭발",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b1ea79be-9b29-4793-9dab-7de6873fc977",
+        "time": 557,
+        "name": "불꽃 회전 #1",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "6521335f-898a-4cf3-8409-2bd3ea353263",
+        "time": 557,
+        "name": "딥 임팩트",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "5ff45b48-abc3-40e5-8463-bc8714159ace",
+        "time": 559,
+        "name": "불꽃 회전 #2",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "cb1b0b2e-dbe6-4e32-99ef-3fa705b232db",
+        "time": 561,
+        "name": "불꽃 회전 #3",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "9202f103-bab9-4fc8-930b-d922b2c7cd05",
+        "time": 570,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "b500159e-9373-463e-9022-6057ca00927e",
+        "time": 579,
+        "name": "끓어오르는 투지",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      },
+      {
+        "id": "eff199a2-b627-493b-bdd2-de8ca70cedb7",
+        "time": 600,
+        "name": "집어삼키는 파도",
+        "attribute": null,
+        "damage": "",
+        "description": ""
+      }
+    ]
+  },
+  "party": [
+    {
+      "index": 0,
+      "name": "T1",
+      "jobId": null
+    },
+    {
+      "index": 1,
+      "name": "T2",
+      "jobId": null
+    },
+    {
+      "index": 2,
+      "name": "H1",
+      "jobId": null
+    },
+    {
+      "index": 3,
+      "name": "H2",
+      "jobId": null
+    },
+    {
+      "index": 4,
+      "name": "D1",
+      "jobId": null
+    },
+    {
+      "index": 5,
+      "name": "D2",
+      "jobId": null
+    },
+    {
+      "index": 6,
+      "name": "D3",
+      "jobId": null
+    },
+    {
+      "index": 7,
+      "name": "D4",
+      "jobId": null
+    }
+  ],
+  "assignments": [],
+  "phaseDividers": []
+}
