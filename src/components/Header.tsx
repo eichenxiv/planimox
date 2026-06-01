@@ -83,7 +83,7 @@ export function Header() {
 
   return (
     <header className="app-header">
-      <h1>Planimox ─ Timeline based Mitigation Planner for FFXIV</h1>
+      <h1>Planimox | FF14 레이드 경감 계획표</h1>
 
       {/* Desktop */}
       <div className="header-menu">
